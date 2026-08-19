@@ -6,15 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    <p id="ad"></p>
+    <button onclick="getname()">Click Me</button>
     <script>
-    document.write("Hello, World!");
-    document.write("Hello, Narayan!");
-    alert("Hello, World!");
-
-    console.log("Hello, World2!");
-    document.getElementById("ad").innerHTML='Hello, World3!';
+        function getname(){
+            let a =prompt("Enter name");
+            document.write(a);
+        }
+        
     </script>
-    
 </body>
 </html>

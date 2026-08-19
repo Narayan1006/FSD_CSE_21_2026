@@ -1,0 +1,30 @@
+.box{
+    
+    height: 300px;
+    width:300px;
+    border: 1px solid black;
+    background-color: antiquewhite;
+}
+.box2{
+    display: none;
+}
+#title{
+    text-align: center;
+    color: black;
+
+}
+body{
+    
+    align-items: center;
+}
+#list{
+    
+    align-items: center;
+    color: blue;
+}
+#button{
+    background-color: yellow;
+    color: red;
+    border-radius: 10px;
+    margin-left: 100px;
+}

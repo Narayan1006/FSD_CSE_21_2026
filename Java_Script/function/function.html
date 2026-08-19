@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //     function abes(x, y){
+    //         document.write("Sum of "+x+" and "+y+" is: "+(x+y)+"<br>");
+    //         document.write("I am Coder From ABES<br><br>");
+    //     }
+    //     abes(10,20);
+    //     abes(30,40);
+    //     abes(50,60);
+        
+    // const abes=()=>"Hello, I am Coder From ABES";
+
+    // let sum=(x,y)=>{ return x+y; };
+    // let subtract=(x,y)=>{ return x-y; };
+    // let multiply=(x,y)=>{ return x*y; };
+    // let divide=(x,y)=>{ return x/y; };
+    // document.write("Sum of 10 and 20 is: "+sum(10,20    )+"<br>");
+    // document.write("Subtract of 10 and 20 is: "+subtract(10,20)+"<br>");
+    // document.write("Multiply of 10 and 20 is: "+multiply(10,20          )+"<br>");
+    // document.write("Divide of 10 and 20 is: "+divide(10,20          )+"<br>");  
+
+    let calculator=(x,y,operation)=>{
+        if(operation=="add"){
+            return x+y;
+        }
+        else if(operation=="subtract"){
+            return x-y;
+        }
+        else if(operation=="multiply"){
+            return x*y;
+        }
+        else if(operation=="divide"){
+            return x/y;
+        }}
+
+        let result=calculator(10,20,"add");
+        document.write("Result is: "+result);
+
+
+     </script>
+    
+</body>
+</html>
