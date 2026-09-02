@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #bfb8b8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+/* Main Card */
+#Card {
+    background-color: #2e2929;
+    width: 600px;
+    min-height: 600px;
+
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+/* Header */
+.container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#bus-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.container h1 {
+    color: white;
+    margin: 0;
+}
+
+/* Book Ticket Heading */
+#book-ticket {
+    width: 300px;
+    height: 70px;
+
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    margin: 30px auto 20px;
+    padding: 10px;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#book-ticket h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+/* Form */
+.form-container {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+
+    width: 100%;
+}
+
+.form-container label {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+}
+
+.form-container input,
+.form-container select {
+    width: 250px;
+    padding: 8px;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#businfo {
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#businfo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+#bus-information {
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+#bus-information label {
+    font-weight: bold;
+}
+
+#seat {
+    margin-left: 10px;
+    padding: 6px;
+    border-radius: 5px;
+}
+.button-container {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.button-container button {
+    width: 150px;
+    padding: 12px;
+
+    background-color: #2e2929;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button-container button:hover {
+    background-color: #444;
+}
+#booking-details {
+    background-color: white;
+    color: black;
+
+    width: 100%;
+    margin-top: 25px;
+    padding: 20px;
+
+    border-radius: 8px;
+    border: 1px solid #ccc;
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#booking-details h2 {
+    color: #2e2929;
+    text-align: center;
+    margin-top: 0;
+}
+
+#booking-details p {
+    color: #333;
+    margin: 8px 0;
+}
